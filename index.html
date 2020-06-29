@@ -2,85 +2,107 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Axion</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
   </head>
   <body>
     <header class="header">
-        <div class="header__logo">
-          <img class="header__img-logo" src="" alt="logo">
-        </div>
-        <nav class="header__menu">
-          <a class="header__menu-link" href="#">SHOP</a>
-          <a class="header__menu-link" href="#">NEWS</a>
-          <a class="header__menu-link" href="#">TEAM</a>
-          <a class="header__menu-link" href="#">LEGACY</a>
-          <a class="header__menu-link" href="#">HELP</a>
+        <div class="header-menu">
+          <img class="header-menu__logo" src="img/header__img-logo.png" alt="logo">
+          <nav class="header-menu__nav">
+          <a class="header-menu__nav-link" href="#">SHOP</a>
+          <a class="header-menu__nav-link" href="#">NEWS</a>
+          <a class="header-menu__nav-link" href="#">TEAM</a>
+          <a class="header-menu__nav-link" href="#">LEGACY</a>
+          <a class="header-menu__nav-link" href="#">HELP</a>
         </nav>
-        <form class="header__form">
+      </div>
+      <form class="header__form">
           <input class="header__input" type="search" name="text">
           <button class="header__btn" type="submit">
-            <img class="header__img" src="" alt="search">
+            <img class="header__search" src="img/header__search.png" alt="search">
           </button>
-          </form>
-          <div class="header__menu-right">
-            <a class="header__menu-link" href="#">SIGN IN</a>
-            <a class="header__menu-link" href="#">CART
-              <img src=" " alt="1">
+      </form>
+          <div class="header-menu__right">
+            <a class="header-menu__right_link" href="#">SIGN IN</a>
+            <a class="header-menu__right_link" href="#">CART
+              <img class="header-menu__right-cart" src="img/header__cart.png" alt="cart">
             </a>
-              <img src="" alt="flag">
+              <img class="header-menu__right-flag" src="img/header__flag.png" alt="flag">
           </div>
-          <div class="header__burger">
-              <div></div>
-              <div></div>
+          <div class="header-menu__logo-mobile">
+            <img src="img/logo-mobile.png" alt="logo">
+          </div>
+          <div class="header__burger-wrapper">
+            <img src="img/burger1.png" alt="menu" class="header__burger-img">
+            <img src="img/burger2.png" alt="menu" class="header__burger-img">
           </div>
       </header>
       <section class="products">
-        <div class="catalog">
-          <img class="catalog__img" src="" alt="sport">
-          <p class="catalog__slogan">Legendary footwear reborn.</p>
-          <a class="catalog__arrow" href="#">SHOP NOW</a>
-          <img class="catalog__arrow" src="" alt="arrow">
-        </div>
-        <div class="product">
-          <h2 class="product__title">FEATURED PRODUCT</h2>
-          <div class="product__atlas">
-            <img class="product__img" src="" alt="atlas">
-            <p class="product__name">Atlas Black/Rasta Axion</p>
-            <p class="product__price">$89.00</p>
-            <button type="button" class="product__color_grey"></button>
-            <button type="button" class="product__color_black"></button>
-            <button type="button" class="product__color_red"></button>
-            <button type="button" class="product__color_yellow"></button>
-          </div>
-          <div class="product__camel">
-            <img class="product__img" src="" alt="camel">
-            <p class="product__name">Camel/Chili Pepper Axion</p>
-            <p class="products__price">$74.00</p>
-            <button type="button" class="product__color_grey"></button>
-            <button type="button" class="product__color_black"></button>
-            <button type="button" class="product__color_red"></button>
-            <button type="button" class="product__color_yellow"></button>
-          </div>
-          <div class="product__camel">
-            <img class="product__img" src="" alt="mandel">
-            <p class="product__name">Mandel Smoke/Rust Axion</p>
-            <p class="products__price">$69.00</p>
-            <button type="button" class="product__color_grey"></button>
-            <button type="button" class="product__color_black"></button>
-            <button type="button" class="product__color_red"></button>
-            <button type="button" class="product__color_yellow"></button>
-          </div>
-          <div class="product__cloud">
-            <img class="product__img" src="" alt="cloud">
-            <p class="product__name">Cloud/Electric Blue Axion</p>
-            <p class="products__price">$69.00</p>
-            <button type="button" class="product__color_grey"></button>
-            <button type="button" class="product__color_black"></button>
-            <button type="button" class="product__color_red"></button>
-            <button type="button" class="product__color_yellow"></button>
+        <div class="catalog__img" src="img/catalog__img.png" alt="sport">
+          <div class="catalog-wrapper">
+            <h1 class="catalog__slogan">Legendary footwear reborn.</h1>
+            <a class="catalog__link" href="#">SHOP NOW</a>
+            <img class="catalog__arrow" src="img/catalog__arrow.png" alt="arrow">
           </div>
         </div>
+          <h2 class="title__product">FEATURED PRODUCT</h2>
+          <div class="product">
+            <div class="product-wrapper">
+              <img class="product__img" src="img/product__img1.png" alt="atlas">
+              <p class="product__name">Atlas Black/Rasta Axion</p>
+              <div class="product__inner">
+                <p class="product__price">$89.00</p>
+                <div class="product__button">
+                  <button type="button" class="product__btn product__btn_grey"></button>
+                  <button type="button" class="product__btn product__btn_black"></button>
+                  <button type="button" class="product__btn product__btn_red"></button>
+                  <button type="button" class="product__btn product__btn_yellow"></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-wrapper">
+              <img class="product__img" src="img/product__img2.png" alt="camel">
+              <p class="product__name">Camel/Chili Pepper Axion</p>
+              <div class="product__inner">
+                <p class="product__price">$74.00</p>
+                <div class="product__button">
+                  <button type="button" class="product__btn product__btn_grey"></button>
+                  <button type="button" class="product__btn product__btn_orange"></button>
+                  <button type="button" class="product__btn product__btn_red"></button>
+                  <button type="button" class="product__btn product__btn_yellow"></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-wrapper">
+              <img class="product__img" src="img/product__img3.png" alt="mandel">
+              <p class="product__name">Mandel Smoke/Rust Axion</p>
+              <div class="product__inner">
+                <p class="product__price">$69.00</p>
+                <div class="product__button">
+                  <button type="button" class="product__btn product__btn_grey"></button>
+                  <button type="button" class="product__btn product__btn_brown"></button>
+                  <button type="button" class="product__btn product__btn_blue"></button>
+                  <button type="button" class="product__btn product__btn_yellow"></button>
+                </div>
+              </div>
+            </div>
+            <div class="product-wrapper">
+              <img class="product__img" src="img/product__img4.png" alt="cloud">
+              <p class="product__name">Cloud/Electric Blue Axion</p>
+              <div class="product__inner">
+                <p class="product__price">$69.00</p>
+                <div class="product__button">
+                  <button type="button" class="product__btn product__btn_grey"></button>
+                  <button type="button" class="product__btn product__btn_blue"></button>
+                  <button type="button" class="product__btn product__btn_red"></button>
+                  <button type="button" class="product__btn product__btn_yellow"></button>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
       <section class="video-section">
         <div class="video-section__img">
