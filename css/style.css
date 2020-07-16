@@ -105,7 +105,7 @@ body {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   padding-bottom: 12px;
 }
 .catalog__link {
@@ -114,7 +114,7 @@ body {
   text-transform: uppercase;
   width: 72px;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 .catalog__link:hover {
   text-decoration: underline;
@@ -219,14 +219,10 @@ body {
 .video__img {
   margin-top: 67px;
   margin-bottom: 66px;
-
 }
-
 .video__content {
   max-width: 266px;
-
 }
-
 .video__subtitle {
   font-size: 22px;
   line-height: 27px;
@@ -817,6 +813,9 @@ body {
   font-size: 20px;
   line-height: 25px;
   margin-bottom: 39px;
+}
+.stories__desc_767 {
+  margin-bottom: 65px;
 }
 .stories__link {
   font-size: 20px;
